@@ -3,7 +3,7 @@ const JOGOS = [
         id : "01",
         nome: "Pokemons Masters",
         valor: 20.00,
-        imagem: 'icon.png'
+        imagem: 'subway.png'
     },
     {
         id: "02",

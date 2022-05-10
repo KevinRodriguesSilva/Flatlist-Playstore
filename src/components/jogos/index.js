@@ -6,7 +6,7 @@ export default function Jogos({ titulo, valor, imagem}) {
     <TouchableOpacity style={estilo.containerJogos}>
         <Image
             style={estilo.images}
-            source={require('../../imagens/${imagem}')}
+            source={require(`../../imagens/${imagem}`)}
         />
     </TouchableOpacity>
     );
@@ -39,9 +39,8 @@ const estilo = StyleSheet.create({
         fontWeight: "bold",
     },
     images: {
-        width: "100%",
-        height: 75,
-        borderRadius: 3,
+        width:100,
+        height:75
     },
 });
 
