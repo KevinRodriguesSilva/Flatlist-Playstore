@@ -8,6 +8,8 @@ export default function Jogos({ titulo, valor, imagem}) {
             style={estilo.images}
             source={require(`../../imagens/${imagem}`)}
         />
+            <Text style={estilo.titulo}>{titulo}</Text>
+            <Text style={estilo.valor}>{valor}</Text>
     </TouchableOpacity>
     );
 
@@ -19,12 +21,11 @@ const estilo = StyleSheet.create({
         borderRadius: 10,
         marginTop: 8,
         padding: 10,
-        margin: 2,
         aligntItems: "center",
         justifytContent: "space-between",
-        widht: 100,
-        height: 150,
-        marginLeft: 8,
+        widht: 170,
+        height: 300,
+        marginLeft: 38
     },
     titulo: {
         color: "black",
@@ -34,13 +35,12 @@ const estilo = StyleSheet.create({
     valor: {
         color: "green",
         fontSize: 12,
-        marginLeft: 29,
         marginTop: 2,
         fontWeight: "bold",
     },
     images: {
-        width:100,
-        height:75
+        width:200,
+        height:200
     },
 });
 

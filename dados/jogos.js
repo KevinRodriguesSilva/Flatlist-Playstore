@@ -1,9 +1,9 @@
 const JOGOS = [
     {
         id : "01",
-        nome: "Pokemons Masters",
-        valor: 20.00,
-        imagem: 'subway.png'
+        nome: 'Pokémon Masters',
+        valor: 'R$20.00',
+        imagem: 'pokemon.jpg'
     },
     {
         id: "02",
@@ -13,21 +13,21 @@ const JOGOS = [
     },
     {
         id: "03",
-        nome: "Subway Surfers",
+        nome: "Chrono Trigger",
         valor : "gratuito",
-        imagem: "subway.png"
+        imagem: "chrono.jpg"
     },
     {
         id: "04",
-        nome: "Subway Surfers",
-        valor : "gratuito",
-        imagem: "subway.png"
+        nome: "Hades",
+        valor : "R$77.00",
+        imagem: "hades.jpg"
     },
     {
         id: "05",
-        nome: "Subway Surfers",
+        nome: "Candy Crush Saga",
         valor : "gratuito",
-        imagem: "subway.png"
+        imagem: "candy.png"
     }
 ]
 
